@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lærke Læsø - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR 
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/mig ingen baggrund.png"
+              alt="Lærke Læsø"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Lærke Læsø">Lærke Læsø</h1>
+
+            <p class="title">Web designer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Kontaktinfo</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:laerkexiao@gmail.com" class="contact-link"
+                  >laerkexiao@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+4523951181" class="contact-link"
+                  >+ 45 23 95 11 81</a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Aalborg, 9000, Denmark</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/l%C3%A6rke-l%C3%A6s%C3%B8/"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Om mig</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Erfaring</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Kontakt</button>
+            </li>
+          </ul>
+
+          <!-- <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Blog</button>
+                      </li> -->
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="om mig active" data-page="om mig">
+          <header>
+            <h2 class="h2 article-title">om mig</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Jeg er multimediedesigner og digital konceptudvikler med speciale
+              i webdesign og UX/UI-design. <br />Jeg har en passion for at skabe
+              intuitive og brugervenlige digitale oplevelser, der engagerer og
+              inspirerer brugerne.
+            </p>
+
+            <p>
+              Mit mål fokuserer på at designe hjemmeside, som passer dig, og at
+              den er funktionel, brugervenlig og samtidig æstetisk. Jeg
+              kombinerer kreativitet og teknisk kunnen med marketingindsigt for
+              at sikre, at dit budskab bliver formidlet klart, effektivt og
+              målrettet.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Hvad kan jeg</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/desktop-outline.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Webdesign & UX/UI</h4>
+
+                  <p class="service-item-text">
+                    Jeg designer funktionelle og brugervenlige websites med
+                    fokus på æstetik og brugeroplevelse.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/color-palette-outline.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Grafisk design</h4>
+
+                  <p class="service-item-text">
+                    Jeg designer logoer, ikoner, flyers og plakater til både
+                    tryk og online brug.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/bulb-outline.svg"
+                    alt="marketing icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Marketing & Visuel identitet
+                  </h4>
+
+                  <p class="service-item-text">
+                    Jeg skaber en sammenhængende visuel stil, der styrker dit
+                    brand og sikrer målrettet kommunikation.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/camera-outline.svg"
+                    alt="branding icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Foto & video</h4>
+
+                  <p class="service-item-text">
+                    Jeg tager og redigerer billeder og videoer til hjemmesider
+                    og sociale medier med fokus på stemning og storytelling.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <!--  
+          - testimonials
+        -->
+
+          <!-- <section class="testimonials">
+            <h3 class="h3 testimonials-title">Projekter</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Daniel lewis
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Jessica miller
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Emily evans
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Henry william
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section> -->
+
+          <!--         
+          - testimonials modal
+        -->
+
+          <!-- <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div> -->
+
+          <!-- 
+          - clients - projekter
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Projekter</h3>
+            <button type="button" data-nav-link data-page="portfolio" id="cta">
+              Se alle
+            </button>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a
+                  href="#"
+                  class="modal-link"
+                  data-text="Digital konceptudvikling projekt: STEAM X LEGO projekt med fokus på at optimere brugeroplevelse samt fokus på gamification elementer for at øge brugerengagement."
+                >
+                  <img src="./assets/images/steamlego.png" alt="steamlego" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a
+                  href="#"
+                  class="modal-link"
+                  data-text="Digital konceptudvikling projekt fokus på brand identiet og markedsføringsstrategi med henblik på at tiltrække nye medlemmer i foreningen."
+                >
+                  <img src="./assets/images/betty.png" alt="steamlego" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a
+                  href="#"
+                  class="modal-link"
+                  data-text="Udvikling af nyt design og layout til SH."
+                >
+                  <img src="./assets/images/sh.png" alt="steamlego" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="#"
+                  class="modal-link"
+                  data-text="Design til platformen VisuTask"
+                >
+                  <img src="./assets/images/visutask.png" alt="steamlego" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a
+                  href="#"
+                  class="modal-link"
+                  data-text="Multimediedesign projekt med fokus på UX/UI design og webudvikling."
+                >
+                  <img
+                    src="./assets/images/massagevsussane.png"
+                    alt="steamlego"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="#"
+                  class="modal-link"
+                  data-text="Multimediedesign projekt med fokus på SEO."
+                >
+                  <img src="./assets/images/moeaalsing.png" alt="steamlego" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="#"
+                  class="modal-link"
+                  data-text="Multimediedesign projekt med fokus på UX/UI design."
+                >
+                  <img src="./assets/images/biké.png" alt="steamlego" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <div
+          id="textModal"
+          style="
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+          "
+        >
+          <div
+            style="
+              background: #1d1d1d;
+              padding: 20px;
+              max-width: 500px;
+              border-radius: 8px;
+              position: relative;
+            "
+          >
+            <span
+              id="modalClose"
+              style="
+                position: absolute;
+                top: -3px;
+                right: 10px;
+                font-size: 24px;
+                cursor: pointer;
+              "
+              >&times;</span
+            >
+            <p id="modalText"></p>
+          </div>
+        </div>
+
+        <!--
+        - #RESUME  erfaring
+      -->
+
+        <article class="erfaring" data-page="erfaring">
+          <header>
+            <h2 class="h2 article-title">Erfaring</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Uddannelse</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Professionshøjskolen UCN Aalborg, Digital konceptudvikling
+                </h4>
+
+                <span>2023 — 2025</span>
+
+                <p class="timeline-text">
+                  Digitale services ● UX/UI-design ● Udvikle koncepter ● Visuel
+                  identiet ● Markedsføringsstrategi
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Professionshøjskolen UCN Aalborg, Multimediedesign
+                </h4>
+
+                <span>2021 — 2023</span>
+
+                <p class="timeline-text">
+                  Frontend ● Webdesign ● Brugerteste ● Brugerundersøgelse ●
+                  Teknisk SEO ● UX/UI-Design ● Grafisk design ● Videoredigering
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  HHX Turøgade - Handelsgymnasiet Aalborg
+                </h4>
+
+                <span>2016 — 2019</span>
+
+                <p class="timeline-text">International Business & Marketing</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Erhvervserfaring</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Webudvikler</h4>
+
+                <span>2024 — 2024</span>
+
+                <p class="timeline-text">
+                  Implementering af design i WordPress ● Opsætning af annoncer ●
+                  SEO-optimering
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">UX/UI-designer</h4>
+
+                <span>2023 — 2023</span>
+
+                <p class="timeline-text">
+                  ● Udvikle brugervenlig platform ● Brugerteste ●
+                  Brugerundersøgelse ● Samarbejde med frontend- og
+                  backend-udviklere og marketing
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Færdigheder</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web design</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Grafisk design</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SEO</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WordPress</h5>
+                  <data value="50">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Marketing & ads</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+<!-- 
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Apps</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul> -->
+
+            <!-- <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-select-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div> -->
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/steamlego.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">STEAM X LEGO</h3>
+
+                  <p class="project-category">Digital konceptudvikling</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/betty.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Træskibet Betty - Forening</h3>
+
+                  <p class="project-category">Digital konceptudvikling</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/sh.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Solhøj Hundehotel</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/visutask.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">VisuTask platform</h3>
+
+                  <p class="project-category">Multimediedesign</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/massagevsussane.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Massage V. Susanne hjemmeside</h3>
+
+                  <p class="project-category">Multimediedesign</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/moeaalsing.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Moe&Aalsing webshop</h3>
+
+                  <p class="project-category">Multimediedesign</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/biké.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Biké</h3>
+
+                  <p class="project-category">UX/UI-design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/kro.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Gjøl Kro</h3>
+
+                  <p class="project-category">Multimediedesign</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="kontakt" data-page="kontakt">
+          <header>
+            <h2 class="h2 article-title">Kontakt</h2>
+          </header>
+         <h3 class="kontakt">Kontakt mig</h3>
+         <p class="kontakt-tekst">Har du spørgsmål, er du altid velkommen til at kontakte mig her👇</p>
+         
+      <a href="mailto:laerkexiao@gmail.com" class="contact-link">laerkexiao@gmail.com</a>
+      <a href="tel:4523951181" class="contact-link"> +45 23 95 11 81</a>
+        </article>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
